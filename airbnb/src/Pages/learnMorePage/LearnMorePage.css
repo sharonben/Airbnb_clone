@@ -1,0 +1,20 @@
+.s1-component{
+    margin: 1% 3%;
+}
+.nav-section1-container{
+    background-color: #07374f;
+}
+.menu-item3{
+   
+    display: block;
+    z-index: 10;
+    position: absolute;
+    top: 70px;
+    right: 5%;
+}
+
+/* @media screen and (max-width: 720px) {
+    .s1-component{
+        margin: 0% 3%;
+    }
+} */

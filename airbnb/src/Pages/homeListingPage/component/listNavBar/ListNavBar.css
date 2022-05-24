@@ -1,0 +1,63 @@
+.listnav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 5%;
+    border-bottom: 1px solid rgb(212, 211, 211);
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.pink-logo{
+    height: 32px;
+    width: 100px;
+}
+.navbar-right>div{
+    margin-left: 30px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.icons-container2{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 6px;
+    max-width: 70px;
+    height:40px;
+    border: 1px solid gray;
+}
+.icons-container2:hover{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+border: none;
+
+}
+.icons-container>.menu-icon{
+    fill: black;
+    margin-left:2px;
+}
+.avatar-icon{
+    margin-left:5px;
+    color: gray;
+    cursor: pointer;
+}
+.listnav-wrapper{
+    position: relative;
+}
+
+.host{
+    font-size:14px;
+    font-weight: 600;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.menu-icon{
+    cursor: pointer;
+}
+.menu-item2{
+   
+        display: block;
+        z-index: 10;
+        position: absolute;
+        top: 70px;
+        right: 5%;
+}

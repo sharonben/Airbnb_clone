@@ -1,0 +1,338 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.app-wrapper{
+    min-height: 100vh;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+header{
+    background-color: black;
+    padding-bottom: 4%;
+border-bottom: 15px solid black;
+}
+.active-navbar{
+    /* margin-top: 50px; */
+    position: fixed;
+    top: 0;
+}
+
+
+.searchbar{
+    position: sticky;
+    top: 0;
+} 
+.search{
+    margin: 0% 22%;
+}
+.mini-search{
+    margin: 0% 40%;
+    position: sticky;
+    top: 0;
+}
+.boxes{
+    background-color: black;
+    position: relative;
+    padding-bottom: 24%;
+}
+.box-two{
+    z-index: 1;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+}
+.zindex-btm-div{
+    /* background-color: rebeccapurple; */
+    padding: 12%;
+}
+.inspiration-heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.6vw;
+    font-weight: 600;
+    margin: 1%;
+    margin-bottom: 36px;
+    color: #222222;
+
+}
+.trip-container{
+    margin: 3.7%;
+}
+.discover-heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.7vw;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #222222;
+}
+.discover-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.discover-container{
+    margin: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1290px) {
+    .box-two{
+        top: 52%;
+        left: 2%;
+    }
+    .zindex-btm-div{
+        padding: 13%;
+    }
+    .trip-container{
+        margin: 5%;
+    }
+    .discover-container{
+        margin: 5%;
+    }
+    .footer-box{
+        margin: 2%;
+        margin-left: 5%;
+    }
+    .search{
+        margin: 0% 16%;
+    }
+}
+
+
+@media screen and (max-width: 1245px) {
+    .search{
+        margin: 0% 15%;
+    }
+}
+@media screen and (max-width: 1212px) {
+    .search{
+        margin: 0% 13%;
+    }
+}
+@media screen and (max-width: 1146px) {
+    .search{
+        margin: 0% 11%;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .search{
+        margin: 0% 7%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .search{
+        margin: 0% 6%;
+    }
+}
+@media screen and (max-width: 990px) {
+    .mini-search{
+        margin: 0% 37%;
+    }
+}
+@media screen and (max-width: 966px) {
+    .search{
+        margin: 0% 5%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .search{
+        margin: 0% 4%;
+    }
+}
+@media screen and (max-width: 856px) {
+    .search{
+        margin: 0% 3%;
+    }
+        .mini-search{
+            margin: 0% 35%;
+        }
+    
+}
+@media screen and (max-width: 800px) {
+    .mini-search{
+        margin: 0% 35%;
+    }
+}
+ @media screen and (max-width: 790px) {
+    .search{
+        margin: 0% 3%;
+    }
+}
+/* @media screen and (max-width: 700px) {
+    .search{
+        margin: 0% 3%;
+    }
+}  */
+
+@media screen and (max-width: 1025px) {
+    .box-two{
+        top: 58%;
+        left: 2%;
+    }
+    .zindex-btm-div{
+        padding: 15%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .box-two{
+        top: 62%;
+        left: 2%;
+    }
+    .zindex-btm-div{
+        padding: 18%;
+    }
+}
+@media screen and (max-width: 745px) {
+    .search{
+        margin: 0% 6%;
+    }
+    .mini-search{
+        margin: 0% 30.5%;
+
+    }
+}
+@media screen and (max-width: 700px) {
+    .mini-search{
+        margin: 0% 30%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mini-search{
+        margin: 0% 28%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .mini-search{
+        margin: 0% 26%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mini-search{
+        margin: 0% 23%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .mini-search{
+        margin: 0% 18%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .mini-search{
+        margin: 0% 14%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .mini-search{
+        margin: 0% 11%;
+    }
+    .inspiration-heading{
+        font-size: 4.5vw;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .cards-container{
+        overflow-x: scroll;
+    }
+    .discover-heading{
+        font-size: 4.5vw;
+        margin-left: 10px;
+        margin-top: 23px;
+        margin-bottom: 20px;
+    }
+    .discover-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .zindex-btm-div{
+        padding: 18% 0%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .zindex-btm-div{
+        padding: 24% 0%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .mini-search{
+        margin: 0% 5%;
+    }
+}
+@media screen and (max-width: 310px) {
+    .mini-search{
+        margin: 0% 2%;
+    }
+    .zindex-btm-div{
+        padding: 26% 0%;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+.boxes{
+    padding-top: 22px;
+
+}
+.box-two{
+    padding-top: 10px;
+}
+
+
+.inspiration-heading{
+    font-size: 5vw;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.cards-container{
+    overflow-x: scroll;
+}
+.discover-heading{
+    font-size: 5vw;
+    margin-left: 10px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.discover-cards{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 550px) {
+.trip-container{
+    margin: 3.7%;
+    margin-top: 18%;
+}
+.inspiration-heading{
+    font-size: 4.5vw;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.cards-container{
+    overflow-x: scroll;
+}
+.discover-heading{
+    font-size: 4.5vw;
+    margin-left: 10px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.discover-cards{
+    display: flex;
+    flex-direction: column;
+}
+}
