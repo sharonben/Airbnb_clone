@@ -12,5 +12,7 @@
 ![footer](https://user-images.githubusercontent.com/106098532/170195394-6d7982a5-db46-406e-bf57-0d8de15a4abe.PNG)
 
 airbnb WEB UI  clone
+
 A web app to represent the Airbnb Clone build with ReactJS
+
 It's a Simple WEB UI Clone using HTML, CSS, ReactJS.
