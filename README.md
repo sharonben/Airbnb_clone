@@ -1,6 +1,5 @@
 
 # Airbnb_clone
-airbnb front page  clone
 
 ![frontpage](https://user-images.githubusercontent.com/106098532/170195800-8d2a9c31-d5e6-4859-a730-468dcc9cf360.jpg)
 
@@ -12,3 +11,6 @@ airbnb front page  clone
 
 ![footer](https://user-images.githubusercontent.com/106098532/170195394-6d7982a5-db46-406e-bf57-0d8de15a4abe.PNG)
 
+airbnb WEB UI  clone
+A web app to represent the Airbnb Clone build with ReactJS
+It's a Simple WEB UI Clone using HTML, CSS, ReactJS.
