@@ -39,6 +39,7 @@ margin: 1%;
 }
 .title-text{
     font-weight: 500;
+    color: black;
 }
 .image1-container{
     width: 320px;
@@ -52,8 +53,11 @@ top: 9%;
 left: 86%;
 }
 .like-icon{
-    fill: white;
+    color: white;
     cursor: pointer;
+}
+.prices{
+    color: black;
 }
 
 .image1{
@@ -75,6 +79,9 @@ left: 86%;
     position: fixed;
     top: 87%;
     left: 46%;
+}
+.buy-link{
+    text-decoration: none;
 }
 
 @media screen and (max-width:1090px){

@@ -1,8 +1,21 @@
 .listnav-wrapper{
+    position: fixed;
+    top: 0%;
     display: flex;
     justify-content: space-between;
     padding: 1.5% 5%;
     border-bottom: 1px solid rgb(212, 211, 211);
+}
+.nnn{
+    display: flex;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.5% 5%;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    background-color: white;
 }
 .navbar-right{
     display: flex;

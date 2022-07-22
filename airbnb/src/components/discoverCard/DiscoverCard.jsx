@@ -1,7 +1,7 @@
 import React from "react";
 import "./DiscoverCard.css";
 
-function DiscoverCard({data,title,lbl}) {
+function DiscoverCard({ data, title, lbl }) {
   return (
     <div className="discover-card-wrapper">
       <img className="container-img" src={data} alt="" />

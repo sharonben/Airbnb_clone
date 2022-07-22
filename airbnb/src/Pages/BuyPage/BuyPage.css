@@ -1,0 +1,358 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.buypage-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buy-nav{
+    position:fixed;
+    z-index: 2;
+}
+.buy-section-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 10%;
+    margin-top: 80px;
+}
+
+.buy-title{
+    color: black;
+    font-size: 44px;
+    font-weight: 500;
+}
+.buy-place{
+    font-size: 17px;
+    font-weight: 500;
+}
+.buy-img{
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.check-container{
+    display: flex;
+}
+.reserve-price{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.checkin,.checkout{
+    height: 60px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.checkin{
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.checkout{
+    border-radius: 0px 10px 10px 0px;
+}
+.buy-description{
+    margin-top: 50px;
+    width: 80%;
+}
+.buydes-p{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buy-description>label{
+font-size: 20px;
+font-weight: 500;
+text-decoration: underline;
+}
+.buy-items-container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* background-color: #ff385c; */
+    max-width: 70%;
+
+}
+.buy-items>div{
+    display: inline-flex;
+    text-align: center;
+    height:max-content;
+    width: max-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.buy-items-container>label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.buy-specs-container{
+    margin-top: 40px;
+}
+.buy-spec{
+    display: flex;
+     text-align: center;
+    align-items: center; 
+    margin-top: 10px;
+}
+.buy-spec-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spec{
+    /* width: 130px; */
+    font-weight: 500;
+}
+.bed{
+    width: 40px;
+margin-right: 10px;
+}
+.buy-num{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+  padding-top: 2px;
+}
+
+.buy-section1-left{
+    overflow-y: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+    padding-top: 2% ;
+    padding-bottom: 4%;
+    padding-right: 7%;
+    }
+
+
+.buy-section1-right{
+    margin-top: 2%;
+    padding-top: 9%;
+}
+.reserve-container{
+
+    align-items: center;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
+
+.reserve-guest{
+    text-align: center;
+    padding-top: 15px;
+    height: 55px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-top: none;
+    background-color: white; 
+}
+.reserve-guest>label{
+    font-size: 14px;
+    color: rgb(103, 103, 103);
+}
+.guest-dd{
+    height: 25px;
+    width: 50px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.reserve-btn{
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ff385c;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1285px) {
+    .reserve-container{
+        align-items: center;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+    }
+    .reserve-guest{
+        padding-top: 10px;
+        height: 45px;
+        width: 250px;
+        padding-left: 8px;
+    }
+
+    .reserve-price{
+        font-size: 20px;
+    }
+    .checkin,.checkout{
+        height: 50px;
+        width: 125px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .reserve-btn{
+        height: 40px;
+        width: 250px;
+        font-size: 18px;
+        
+    }
+    .buy-section1-right{
+        padding-top: 11%;
+    
+    }
+    
+}
+@media screen and (max-width:1180px) {
+    .buy-section1-left{
+        padding-right: 4%;
+        }
+}
+@media screen and (max-width:1120px) {
+    .buy-section1-left{
+        padding-right: 4%;
+        }
+        .buy-section-container{
+            flex-direction: column;
+        }
+        .buy-section1-right{
+            display: flex;
+            justify-content: center;
+        }
+        .buy-section1-left{
+            overflow-y:visible;
+            height:fit-content;
+            padding-top: 2% ;
+            padding-bottom: 1%;
+            padding-right: 0%;
+            }
+
+
+
+
+        .reserve-container{
+            align-items: center;
+            padding: 40px;
+            width: 330px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+        .reserve-guest{
+            padding-top: 10px;
+            height: 45px;
+            width: 250px;
+            padding-left: 8px;
+        }
+    
+        .reserve-price{
+            font-size: 20px;
+        }
+        .checkin,.checkout{
+            height: 50px;
+            width: 125px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .reserve-btn{
+            height: 40px;
+            width: 250px;
+            font-size: 18px;
+            
+        }
+        .buy-section1-right{
+            padding-top: 0%;
+            margin-top: 40px;
+            margin-bottom: 70px;
+        
+        }
+        .buy-description{
+            width: 100%;
+        }
+        .buy-items-container {
+            max-width: 100%;
+        }
+
+}
+
+@media screen and (max-width:600px) {
+    .buydes-p{
+        font-size: 14px;
+    }
+    .buy-img {
+        width: 100%;
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width:500px) {
+    .buydes-p{
+        font-size: 13px;
+    }
+    .buy-img {
+        width: 100%;
+        margin-left: 1%;
+    }
+    .buy-description {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:440px) {
+
+    .buy-img {
+        width: 100%;
+        margin-left: 1%;
+    }
+    .buy-description {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .reserve-container{
+        align-items: center;
+        padding: 30px;
+        width: 260px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+    }
+    .reserve-guest{
+        padding-top: 8px;
+        height: 40px;
+        width: 200px;
+        padding-left: 4px;
+        font-size: 12px;
+    }
+
+    .reserve-price{
+        font-size: 20px;
+    }
+    .checkin,.checkout{
+        height: 40px;
+        width: 100px;
+        font-size: 12px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .reserve-btn{
+        height: 40px;
+        width: 200px;
+        font-size: 17px;
+        padding-top: 8px;
+    }
+}

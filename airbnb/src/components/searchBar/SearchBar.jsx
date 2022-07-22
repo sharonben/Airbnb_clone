@@ -8,19 +8,17 @@ function SearchBar({ data }) {
       <div className={data ? "active-placeholder" : "place-holder"}>
         Start your search
       </div>
-
       <div className={data ? "first" : "search-items-one"}>
         <h6>Location</h6>
         <p>Where are you going?</p>
       </div>
-
-      <div className={data?"second":"search2-container"}>
+      <div className={data ? "second" : "search2-container"}>
         <div className={data ? "second" : "search-items2"}>
           <h6>Check in</h6>
           <p>Add dates</p>
         </div>
       </div>
-      <div className={data?"third":"search2-container"}>
+      <div className={data ? "third" : "search2-container"}>
         <div className={data ? " third" : "search-items3"}>
           <h6>Check out</h6>
           <p>Add dates</p>

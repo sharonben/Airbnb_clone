@@ -1,15 +1,14 @@
-import React from 'react'
-import "./FooterList.css"
-import LanguageIcon from '@mui/icons-material/Language';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-
+import React from "react";
+import "./FooterList.css";
+import LanguageIcon from "@mui/icons-material/Language";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 function FooterList() {
   return (
-    <div className='footer-contain'>
-<div className="footer-container">
+    <div className="footer-contain">
+      <div className="footer-container">
         <div className="footer-box">
           <div className="list-heads">Support</div>
           <ul className="ul-one">
@@ -56,7 +55,6 @@ function FooterList() {
       </div>
 
       <div className="footer-bottom">
-
         <div className="left-section">
           <ul className="left-in">
             <li>© 2022 Airbnb, Inc.</li>
@@ -67,21 +65,27 @@ function FooterList() {
           </ul>
         </div>
 
-<div className="right-section">
-<ul className="right-in">
-            <li><LanguageIcon/></li>
+        <div className="right-section">
+          <ul className="right-in">
+            <li>
+              <LanguageIcon />
+            </li>
             <li>English</li>
             <li>₹ INR</li>
-            <li><FacebookIcon/></li>
-            <li><TwitterIcon/></li>
-            <li><InstagramIcon/></li>
+            <li>
+              <FacebookIcon />
+            </li>
+            <li>
+              <TwitterIcon />
+            </li>
+            <li>
+              <InstagramIcon />
+            </li>
           </ul>
-
-</div>
-
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default FooterList
+export default FooterList;

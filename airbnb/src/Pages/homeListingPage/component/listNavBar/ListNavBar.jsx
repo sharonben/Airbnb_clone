@@ -8,7 +8,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "../../../../components/menuitem/MenuItem";
 
-function ListNavBar() {
+function ListNavBar({ data }) {
   const [menu, setMenu] = useState(false);
 
   const menuClick = () => {
@@ -16,10 +16,12 @@ function ListNavBar() {
     console.log(menu);
   };
   return (
-    <div className="listnav-wrapper">
-      <Link to={'/'}><div className="logo-container">
-        <img className="pink-logo" src={pinklogo} alt="" />
-      </div></Link>
+    <div className={data === "sticky" ? "nnn" : "listnav-wrapper"}>
+      <Link to={"/"}>
+        <div className="logo-container">
+          <img className="pink-logo" src={pinklogo} alt="" />
+        </div>
+      </Link>
 
       <div className="navbar-right">
         <div className="host">Become a host</div>
@@ -41,7 +43,9 @@ function ListNavBar() {
         </div>
       </div>
 
-     <div className="menu-item2"><MenuItem data={menu} /></div> 
+      <div className="menu-item2">
+        <MenuItem data={menu} />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./SectionOne.css";
-import s1img from "./section1.jpg"
+import s1img from "./section1.jpg";
 
 function SectionOne() {
   return (
@@ -18,8 +18,7 @@ function SectionOne() {
         </div>
       </div>
       <div className="section1-right">
-          <img className="s1-img" src={s1img} alt="" />
-          {/* <p className="s1-img-caption">Els is a Host in Rome who hosted a refugee through Airbnb.org.</p> */}
+        <img className="s1-img" src={s1img} alt="" />
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ function HostCard() {
     <div className="host-wrapper">
       <div className="host-items">
         <div className="host-caption">
-          Questions<br/> about<br/> hosting?
+          Questions
+          <br /> about
+          <br /> hosting?
         </div>
         <button className="host-btn">Ask a Superhost</button>
       </div>
