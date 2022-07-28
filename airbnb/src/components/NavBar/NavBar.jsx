@@ -6,6 +6,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import MenuItem from "../menuitem/MenuItem";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -22,7 +23,7 @@ function NavBar() {
         </div>
         <div className="navbar-middle">
           <ul className="ul-container">
-            <li>Places to stay</li>
+            <li><Link className="places-link" to={"/flexibleBtn"}>Places to stay</Link></li>
             <li>Experiences</li>
             <li>Online Experiences</li>
           </ul>

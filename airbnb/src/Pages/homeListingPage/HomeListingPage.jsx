@@ -65,7 +65,7 @@ function HomeListingPage() {
             })
           : results.map((item, index) => {
               return (
-                <Link className="buy-link" to={"/buy"}>
+                <Link className="buy-link" to={`/buy/${item.id}`}>
                   <div className="list-box" key={index}>
                     <div className="image1-container">
                       <img
