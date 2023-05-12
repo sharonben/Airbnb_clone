@@ -13,4 +13,4 @@ airbnb WEB UI  clone
 
 A web app to represent the Airbnb Clone build with ReactJS
 
-It's a Simple WEB UI Clone using HTML, CSS, ReactJS.
+
